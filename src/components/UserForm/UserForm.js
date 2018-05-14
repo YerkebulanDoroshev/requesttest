@@ -1,10 +1,10 @@
 import React from 'react'
 
 
-const UserForm = () => {
+const UserForm = (props) => {
   return (
     <div>
-      <form>
+      <form onSubmit={props.getUser}>
         <input type="text" name="username"/>
         <button>Submit</button>
       </form>
