@@ -41,6 +41,7 @@ const Info = (props) => {
         <Button
           className="button"
           href={'https://github.com/' + props.user.login}
+          target="_blank"
         >
           Github account
         </Button>
